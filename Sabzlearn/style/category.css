@@ -1,0 +1,206 @@
+@import url(font.css);
+@import url(variables.css);
+@import url(modular-css/navbar.css);
+@import url(modular-css/defaults.css);
+@import url(modular-css/footer.css);
+@import url(modular-css/course-box.css);
+@import url(modular-css/swiper-modular.css);
+@import url(modular-css/input.css);
+
+
+.header {
+    color: var(--white-color);
+    background-color: rgba(0, 0, 0, 0.9);
+    background-position: 50%;
+    padding: 2.5rem 0;
+    border-bottom-left-radius: 99px;
+    border-bottom-right-radius: 99px;
+    color: var(--white-color);
+}
+
+
+.courses {
+    margin: 2.5rem 0.5rem;
+}
+
+.courses--topbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 0.5rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgb(137, 134, 134);
+    border-radius: 10px;
+}
+
+.topbar__right {
+    display: flex;
+}
+
+.courses--topbar__row-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(46, 45, 45);
+}
+
+.courses--topbar__active {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.courses--topbar__column-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.courses--topbar__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses--topbar__column-btn {}
+
+.courses--topbar__selection {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.courses--topbar__selection-title {
+    display: flex;
+    align-items: center;
+    height: 3.8rem;
+    border-radius: 0.3rem;
+    padding: 0.8rem 2rem;
+    border: 1px solid #e5e5e5;
+    color: #7d7e7f;
+    transition: all 400ms ease;
+}
+
+.courses--topbar__selection-title:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.selection-icon {
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+.courses--topbar__selection-list {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    width: 17%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: var(--white-color);
+    padding: 0.8rem 0;
+    border-radius: 0 0 0.3rem 0.3rem;
+    border-bottom: 0.3rem solid var(--primary-color);
+    z-index: 9999;
+    transition: all 400ms ease;
+    top: 245px;
+}
+
+.courses--topbar__selection-item {
+    color: #5f5f5f;
+    font-size: 1.4rem;
+    padding: 0.9rem 1.4rem;
+    transition: all 200ms ease;
+}
+
+.courses--topbar__selection-item:hover {
+    background-color: #ddd;
+}
+
+.courses--topbar__selection-item--active {
+    background-color: #ddd !important;
+}
+
+.courses--topbar__selection:hover .courses--topbar__selection-list {
+    visibility: visible;
+    opacity: 1;
+}
+
+.topbar__left {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses--topbar__form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses--topbar__input {
+    width: 240px;
+    border-radius: 9px;
+    border: none;
+    padding: 0.4rem 0.8rem;
+}
+
+.courses--topbar__search-icon {
+    position: absolute;
+    left: 10px;
+}
+
+.courses--pagination {}
+
+.courses--pagination__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 10px;
+    flex-direction: row-reverse;
+    border: 3px solid var(--primary-color);
+    width: 300px;
+    margin: 4rem auto;
+    border-radius: 10px;
+    padding: 1rem 0;
+}
+
+.courses--pagination__items {
+    padding: 1rem 2rem;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #cfd0d0;
+}
+
+.courses--pagination__items-active {
+    background-color: var(--primary-color);
+}
+
+.courses--pagination__items:hover {
+    background-color: var(--primary-color);
+    transition: all 2ms ease-in;
+}
+
+.courses--pagination__items-link {}

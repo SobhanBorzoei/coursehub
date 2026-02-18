@@ -1,0 +1,110 @@
+.top--bar__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top--bar__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top--bar__menu {
+    display: flex;
+}
+
+.top--bar__item {
+    margin: 0 2.5rem;
+}
+
+.top--bar__link {}
+
+.top--bar__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top--bar__left button svg {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.top--bar__left button {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.top--bar__left button:last-child {
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 9px;
+}
+
+.all--product {}
+
+.cours {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--white-color);
+    box-shadow: 0 0px 20px black;
+    top: 10rem;
+    border-radius: 9px;
+}
+
+.front {
+    width: 420px;
+}
+
+.front a,
+.pyton a,
+.php a,
+.nodejs a,
+.wordpress a {
+    display: flex;
+    position: relative;
+    padding: 0rem;
+    margin: 0.5rem;
+}
+
+.front a p,
+.pyton a p,
+.php a p,
+.nodejs a p,
+.wordpress a p {
+    display: flex;
+    width: 125px;
+    color: var(--primary-color);
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    background-color: var(--dark-color);
+    font-family: var(----IRANSans_Black);
+}
+
+.front__cours,
+.pyton__cours,
+.php__cours,
+.nodejs__cours,
+.wordpress__cours {
+    margin-right: 1rem;
+    display: none;
+    color: #000;
+    background-color: rgb(211, 208, 208);
+    width: 300px;
+    padding: 1rem;
+    border-radius: 9px;
+}
+
+.active--cours {
+    display: block;
+}

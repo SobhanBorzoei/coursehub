@@ -1,0 +1,32 @@
+
+.popular {
+    margin: 4rem 0;
+}
+
+.swiper {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination {}
+
+.swiper-slide .course--box {
+    box-shadow: 0 0 10px rgba(168, 172, 185, 0.3);
+    padding-bottom: 2rem;
+}

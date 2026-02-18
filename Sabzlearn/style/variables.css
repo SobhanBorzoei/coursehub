@@ -1,0 +1,17 @@
+:root {
+    /* FontS */
+
+    --primary-font: 'IRANSans';
+    --IRANSans_Black: 'IRANSans_Black';
+    --IRANSans_Bold: 'IRANSans_Bold';
+    --IRANSans_Light: 'IRANSans_Light';
+    --IRANSans_Medium: 'IRANSans_Medium'
+    --IRANSans_UltraLight: 'IRANSans_UltraLight';
+
+    /* Colors */
+
+    --primary-color: #2bce56;
+    --white-color: #fff;
+    --dark-color: #464749;
+
+}
