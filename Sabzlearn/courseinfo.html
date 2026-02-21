@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/Swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/FontAwesome/all.min.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/courseinfo.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="header">
+        <div class="container">
+            <div class="container--wrapper">
+                <div class="top--bar__content">
+                    <div class="top--bar__right">
+                        <img src="images/logo/sabzlearn.png" alt="" style="width: 100px;">
+                        <ul class="top--bar__menu">
+                            <li class="top--bar__item dropdown">
+                                <a href="#" class="top--bar__link">همه دوره ها</a>
+
+                                <ul class="cours">
+                                    <li class="front">
+                                        <a href="#" class="cours__menu">Front</a>
+                                        <ul class="front__cours cours__item">
+                                            <li>آموزش Html</li>
+                                            <li>آموزش Css</li>
+                                            <li>آموزش Js</li>
+                                            <li>آموزش React</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="python">
+                                        <a href="#" class="cours__menu">Python</a>
+                                        <ul class="python__cours cours__item">
+                                            <li>دوره آموزش پایتون</li>
+                                            <li>پروژه های کاربردی با پایتون</li>
+                                            <li>بهینه نویسی کد ها در پایتون</li>
+                                            <li>آموزش جنگو</li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="php">
+                                        <a href="#" class="cours__menu">PHP</a>
+                                        <ul class="php__cours cours__item">
+                                            <li>آموزش جامع PHP</li>
+                                            <li>ربات تلگرام با PHP</li>
+                                            <li>پروژه های کاربردی با PHP</li>
+                                            <li>درک مفاهیم api</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="top--bar__item">
+                                <a href="#" class="top--bar__link">مقالات</a>
+                            </li>
+                            <li class="top--bar__item">
+                                <a href="#" class="top--bar__link">مشاوره برنامه نویسی</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top--bar__left">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                            </svg>
+
+                        </button>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                            </svg>
+
+                        </button>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+                            <span>ورود</span>
+                            <span> / </span>
+                            <span>عضویت</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Finish Header -->
+
+    <main class="main" style="color: #fff;">
+        <div class="container">
+            <div class="course--content">
+                <div class="course--content__product">
+                    <div class="course--content__product-info">
+                        <div class="course--content__path">
+                            <a href="#">خانه</a>
+                            <i style="font-size: 1.5rem;">&crarr;</i>
+                            <a href="#">دوره ها</a>
+                            <i style="font-size: 1.5rem;">&crarr;</i>
+                            <a href="#">فرانت اند</a>
+                        </div>
+                        <h1 class="course__title">
+                            آموزش HTML رایگان مقدماتی تا پیشرفته
+                        </h1>
+                        <p class="course__description">
+                            آموزش HTML، اولین قدم شروع طراحی وبسایت است. HTML یه زبان نشانه
+                            گذاری هست که با کمک اون میتونی تگ هایی بنویسی تا سایت رو روی اون تگ ها پیاده کنی. همونجوری
+                            که هیچ موجودی نمیتونه بدون اسکلت زندگی کنه، هیچ وبسایتی هم نمیتونه بدون HTML لود ...
+                        </p>
+                        <div class="course--price">
+                            <div class="discount--percentage">
+                                <p class="discount--percentage__amount">
+                                    100% تخفیف شگفت انگیز
+                                </p>
+                            </div>
+                            <div class="discount--time">
+                                <p class="discount--time__amount">
+                                    00
+                                    ساعت
+                                    00
+                                    دقیقه
+                                    00
+                                    ثانیه
+                                </p>
+                            </div>
+                        </div>
+                        <div class="purchase--information">
+                            <div class="course--btn">
+                                <button>افزودن به سبد خرید</button>
+                            </div>
+                            <div class="product--price">
+                                <del>300,000</del>
+                                <span>رایگان</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="course--content__product-img">
+                        <img src="images/courses/Html.webp" alt="" style="width: 600px; height: 343.5;">
+                    </div>
+                </div>
+            </div>
+            <div class="course--box-info">
+            </div>
+        </div>
+    </main>
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-widgets">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="footer-widgets__item">
+                            <span class="footer-widgets__title">
+                                درباره ما
+                            </span>
+                            <p class="footer-widgets__text">
+                                وقتی تازه شروع به یادگیری برنامه نویسی کردم. یکی از مشکلاتی که در فرآیند یادگیری داشتم،
+                                کمبود آموزش های خوب با پشتیبانی قابل قبول بود که باعث شد اون موقع تصمیم بگیرم اگر روزی
+                                توانایی مالی و فنی قابل قبولی داشتم یک وب سایت برای حل این مشکل راه اندازی کنم! و خب
+                                امروز آکادمی آموزش برنامه نویسی سبزلرن به عنوان یک آکادمی خصوصی فعالیت میکنه و این به
+                                این معنی هست که هر مدرسی اجازه تدریس در اون رو نداره و باید از فیلترینگ های خاص آکادمی
+                                سبزلرن رد شه! این به این معنی هست که ما برامون فن بیان و نحوه تعامل مدرس با دانشجو بسیار
+                                مهمه! ما در آکادمی سبزلرن تضمین پشتیبانی خوب و با کیفیت رو به شما میدیم . چرا که مدرسین
+                                وب سایت سبزلرن حتی برای پشتیبانی دوره های رایگان شون هم هزینه دریافت میکنند و متعهد
+                                هستند که هوای کاربر های عزیز رو داشته باشند !
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="footer-widgets__item">
+                            <span class="footer-widgets__title">
+                                آخرین مطالب
+                            </span>
+                            <div class="footer-widgets__links">
+                                <a href="#" class="footer-widgets__link">
+                                    نحوه نصب کتابخانه در پایتون | آموزش نصب کتابخانه پایتون
+                                </a>
+                                <a href="#" class="footer-widgets__link">
+                                    چگونه پایتون را آپدیت کنیم؟ | آموزش صفر تا صد آپدیت کردن پایتون
+                                </a>
+                                <a href="#" class="footer-widgets__link">
+                                    آموزش نصب پایتون ( Python ) در در مک، ویندوز و لینوکس | گام به گام و تصویری
+                                </a>
+                                <a href="#" class="footer-widgets__link">
+                                    بهترین فریم ورک های فرانت اند | 16 فریم ورک Front end بررسی معایب و مزایا
+                                </a>
+                                <a href="#" class="footer-widgets__link">
+                                    معرفی بهترین سایت آموزش جاوا اسکریپت [ تجربه محور ] + آموزش رایگان
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="footer-widgets__item">
+                            <span class="footer-widgets__title">
+                                دسترسی سریع
+                            </span>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#" class="footer-widgets__link">
+                                        آموزش HTML
+                                    </a>
+                                </div>
+
+                                <div class="col-6">
+                                    <a href="#" class="footer-widgets__link">
+                                        آموزش CSS
+                                    </a>
+                                </div>
+
+                                <div class="col-6">
+
+                                    <a href="#" class="footer-widgets__link">
+                                        آموزش جاوا اسکریپت
+                                    </a>
+                                </div>
+                                <div class="col-6">
+
+                                    <a href="#" class="footer-widgets__link">
+                                        آموزش بوت استرپ
+                                    </a>
+                                </div>
+                                <div class="col-6">
+
+                                    <a href="#" class="footer-widgets__link">
+                                        آموزش ریکت
+                                    </a>
+                                </div>
+
+                                <div class="col-6">
+
+                                    <a href="#" class="footer-widgets__link">
+                                        آموزش پایتون
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer__copyright">
+            <span class="footer__copyright-text">
+                کلیه حقوق برای آکادمی آموزش برنامه نویسی سبز لرن محفوظ است.
+            </span>
+        </div>
+    </footer>
+    <!-- Finish Footer -->
+
+    <script src="vendor/Swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/FontAwesome/all.min.js"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/index.js"></script>
+</body>
+
+</html>

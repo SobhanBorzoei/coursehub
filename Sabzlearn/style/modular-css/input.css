@@ -1,0 +1,33 @@
+
+.search--box {
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.search--box svg {
+    width: 50px;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 99px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    /* right: 10px; */
+    cursor: pointer;
+}
+
+.search--box input {
+    padding: 2rem 3rem;
+    width: 750px;
+    /* min-width: 450px; */
+    border-radius: 99px;
+    color: var(--primary-color);
+    font-family: var(--IRANSans_Bold);
+    background-color: var(--dark--color);
+    border: 1px solid #fff;
+}
+
+::placeholder {
+    font-family: var(--IRANSans_Black);
+    color: var(--primary-color);
+}

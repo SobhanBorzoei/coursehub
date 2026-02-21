@@ -1,0 +1,38 @@
+
+.courses--pagination {}
+
+.courses--pagination__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 10px;
+    flex-direction: row-reverse;
+    border: 3px solid var(--primary-color);
+    width: 300px;
+    margin: 4rem auto;
+    border-radius: 10px;
+    padding: 1rem 0;
+}
+
+.courses--pagination__items {
+    padding: 1rem 2rem;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #cfd0d0;
+}
+
+.courses--pagination__items-active {
+    background-color: var(--primary-color);
+}
+
+.courses--pagination__items:hover {
+    background-color: var(--primary-color);
+    transition: all 2ms ease-in;
+}
+
+.courses--pagination__items-link {}

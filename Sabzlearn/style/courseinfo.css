@@ -1,0 +1,126 @@
+@import url(font.css);
+@import url(variables.css);
+@import url(modular-css/navbar.css);
+@import url(modular-css/defaults.css);
+@import url(modular-css/footer.css);
+@import url(modular-css/course-box.css);
+@import url(modular-css/swiper-modular.css);
+@import url(modular-css/input.css);
+@import url(modular-css/pagination.css);
+
+.header {
+    background: linear-gradient(135deg, #1a3846, #00030d, #000);
+    background-size: 200% 200%;
+    color: #fff;
+    padding: 10px 0;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main {
+    padding-top: 5rem;
+}
+
+.container {}
+
+.course--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course--content__path {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.course--content__product {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+}
+
+.course--content__product-info {
+    margin-bottom: 2.5rem;
+}
+
+.course__title {
+    font-size: 2.5rem;
+    font-family: var(--primary-font);
+    margin-bottom: 0.5rem;
+}
+
+.course__description {
+    font-size: 16px;
+    max-width: 600px;
+    min-width: 250px;
+    margin-bottom: 4.5rem;
+}
+
+.course--price {
+    background-color: aqua;
+    padding: 1rem;
+    background: linear-gradient(135deg, #79020c, #050404);
+    box-shadow: 0 0 10px linear-gradient(135deg, #ff4757, #ff6b81);
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+}
+
+.discount--percentage {}
+
+.discount--percentage__amount {}
+
+.discount--time {}
+
+.discount--time__amount {}
+
+.purchase--information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course--btn {
+    background-color: var(--primary-color);
+    color: #f00216;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product--price {
+    padding: 1rem;
+}
+
+.product--price del {
+    margin-left: 30px;
+}
+
+.product--price span {
+    margin-left: 5px;
+    font-size: 2rem;
+}
+
+.course--content__product-img {}
+
+.course--content__product-img img {
+    border-radius: 10px;
+}

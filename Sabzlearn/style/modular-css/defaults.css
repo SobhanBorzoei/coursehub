@@ -1,0 +1,56 @@
+/* Start Default Style */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    background: linear-gradient(135deg, #0a0f1e, #1a1f35, #0e4b7a);
+    background-size: 400% 400%;
+    animation: gradientMove 20s ease infinite;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    font-family: var(--primary-font);
+}
+
+*,
+*::after,
+*::before {
+    outline: none;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark--color);
+    transition: all 400ms ease;
+    font-weight: 400;
+}
+
+a:hover {
+    font-weight: 900;
+    transition: all 400ms ease-in;
+}
+
+i {
+    user-select: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 400ms ease;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+}
+
+
+/* Finish Default Style */
